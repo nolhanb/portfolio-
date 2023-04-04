@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Noto+Sans:wght@200&family=Oswald:wght@300&display=swap');
+body{
+   margin: 0;
+   background-color: black;
+}
+
+.HomeButton{
+    
+    top: 30px;
+    left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    border-radius: 50px;
+    font-size: 300%;
+    text-shadow: 5px 2px 1px black;
+  
+}
+.MenuButton{
+    top: 50px;
+    right: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50px;
+    font-size: 200%;
+    text-decoration: none;
+    text-shadow: 5px 0px 5px #002A52;
+}
+
+
+
+.MenuButton :hover{
+    color: #002A52;
+    transition-delay: 0.8ms;
+    text-shadow: 5px 0px 5px white;
+}
+
+.ContactButton{
+    position: absolute;
+    bottom: 5%;
+    right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.background{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+   border-radius: 50px;
+    overflow: hidden;
+}
+.background video{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+
+}
+.Text{
+    color: white;
+    font-size: 150px;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 5em;
+    font-family: 'Bangers', cursive;
+    text-shadow: 5px 0px 0px black;
+    mix-blend-mode: overlay;
+}
